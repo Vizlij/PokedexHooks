@@ -1,4 +1,3 @@
-Pokedex
+This Pokedex uses react-hooks and mobx-react-lite
 
-Demo: https://vizlij.github.io/Pokedex/
 
