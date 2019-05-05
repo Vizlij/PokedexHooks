@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://vizlij.github.io/Pokedex/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "custom-react-scripts": "0.2.2",
+    "eslint-config-standard": "^12.0.0",
+    "gh-pages": "^2.0.1",
+    "mobx": "^5.9.4",
+    "mobx-react-lite": "^1.3.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-paginating": "^1.3.0-hook.1",
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.2.0",
+    "stylus-in-react": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint src/**/*.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "standard": "*"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
